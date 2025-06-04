@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History of Laptops</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:linear-gradient(to left, #3f9eb1, #b2ea08); ;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      max-width: 800px;
+      background: white;
+      margin: 40px auto;
+      padding: 20px;
+      box-shadow: 0 10px 15px ;
+      border-radius: 8px;
+    }
+
+    img {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 5px 10px 15px ;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+      text-align: justify;
+    }
+    button {
+    background: #00897b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;       
+            
+    } 
+    button:hover {
+      background: #005f56;
+      transform: translateY(-2px);
+            
+    }
+    a{
+      text-decoration: none;
+    }
+
+   
+  </style>
+</head>
+<body>
+  <section>
+    <a href="https://en.wikipedia.org/wiki/Laptop"><img src="img1.jpg" height="200" width="200" alt="Laptop History Image"></a>
+    
+    <h1>History of Laptops</h1>
+    <p>
+      The history of the laptop follows closely behind the development of the personal computer itself. 
+      A "personal, portable information manipulator" was imagined by Alan Kay at Xerox PARC in 1968, 
+      and described in his 1972 paper as the "Dynabook". The IBM Special Computer APL Machine Portable (SCAMP) 
+      was demonstrated in 1973. This prototype was based on the IBM PALM processor. The IBM 5100, the first 
+      commercially available portable computer, appeared in September 1975, and was based on the SCAMP prototype.
+    </p>
+    <p>
+      As 8-bit CPU machines became widely accepted, the number of portables increased rapidly. 
+      The first "laptop-sized notebook computer" was the Epson HX-20, invented (patented) by Suwa Seikosha's 
+      Yukio Yokozawa in July 1980, introduced at the COMDEX computer show in Las Vegas by Japanese company 
+      Seiko Epson in 1981, and released in July 1982. It had an LCD screen, a rechargeable battery, and a 
+      calculator-size printer, in a 1.6 kg (3.5 lb) chassis, the size of an A4 notebook. It was described 
+      as a "laptop" and "notebook" computer in its patent.
+    </p>
+    <p>
+        <h3><a href="https://en.wikipedia.org/wiki/Laptop">More details</a></h3>
+    </p>
+   <div style="text-align: end; margin-top: 20px;">
+       <button id="exitBtn">Exit</button>
+   </div>
+
+  </section>
+  <script>
+    document.getElementById("exitBtn").addEventListener("click", function() {
+    window.close();
+    alert("Press Ok to exit");
+  });
+
+  </script>
+</body>
+</html>
